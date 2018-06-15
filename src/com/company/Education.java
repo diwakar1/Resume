@@ -5,8 +5,11 @@ import java.util.ArrayList;
 public class Education {
     ArrayList<String> education;
 
+
     public Education() {
     }
+
+
 
     public ArrayList<String> getEducation() {
         return education;
@@ -25,4 +28,6 @@ public class Education {
         }
         return display;
     }
+
+
 }

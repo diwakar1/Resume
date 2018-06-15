@@ -5,14 +5,34 @@ public class Person {
     Education education;
     Experience experience;
     Skill skill;
+    Colleges colleges;
+    Duties duties;
 
     public Person() {
 
         this.education= new Education();
         this.experience = new Experience();
         this.skill = new Skill();
+        this.colleges = new Colleges();
+        this.duties = new Duties();
 
 
+    }
+
+    public Colleges getColleges() {
+        return colleges;
+    }
+
+    public void setColleges(Colleges colleges) {
+        this.colleges = colleges;
+    }
+
+    public Duties getDuties() {
+        return duties;
+    }
+
+    public void setDuties(Duties duties) {
+        this.duties = duties;
     }
 
     public Education getEducation() {
