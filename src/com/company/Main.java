@@ -101,7 +101,7 @@ public class Main {
 
 
 
-            System.out.println("\n" + sk);
+             System.out.println("\n" + sk);
             System.out.println(person.skill.toString() );
         }
     }
